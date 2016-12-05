@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+*{
+  height:100%;
+}
+
+ol,ul{
+	list-style:none;
+}
+
+header{
+	height:60px;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+a{
+    text-decoration: none;
+	color:white;
+	font-size:19px;
+}
+input{
+	outline:none;
+}
+ul li{
+
+	padding-left:10px;
+	padding-right:10px;
+    position:relative;
+	height:60px;
+	float:left;
+    -webkit-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+	cursor: pointer;
+}
+ul li:focus{
+  background:black;
+
+}
+.regis_login{
+	float:right;
+}
+.regis_login li{
+	padding-left:0px;
+	padding-right:0px;
+}
+#login{
+	position:relative;
+	border: solid 0px;
+	line-height:0px;
+	padding:8px;
+	background:green;
+	height:65px;
+	top:5px;
+	border-radius:30px;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+#registrar{
+	margin-left:20px;
+	padding-left:10px;
+	padding-right:10px;
+	height:60px;
+	background:black;
+	padding:24px;
+}
+#login:hover{
+
+}
+.fs{
+	font-size:25px;
+}
+#registro{
+	display:block;
+	position:absolute;
+	float:right;
+	right:10px;
+	width:310px;
+    height: 468px;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+	z-index:1;
+	background:white;
+    -webkit-transition: all .50s ease-in;
+    transition: all .50s ease-in;
+    transform: translateY(-120%);
+}
+#logout{
+	display:block;
+	position:relative;
+	float:right;
+	right:10px;
+	width:310px;
+    height: 330px;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+	z-index:2;
+	background:white;
+    transition: transform 1s ease;
+	transform: translateY(0%);
+}
+.inp form{
+	position:relative;
+	top:21px;
+}
+#loger:checked ~ #logout{
+	display:none;
+
+}
+
+#regis:checked ~ #logout{
+    transform: translateY(-120%);
+}
+#regis:checked ~ #registro{
+	transform: translateY(0%);
+}
+
+input[type=checkbox]{
+	display:none;
+}
+.inp input[type=text],input[type=password]{
+	position:relative;
+	font-size:16px;
+    margin-top:10px;
+    border: solid 1px rgba(51,51,51,0.1);
+	width:225px;
+  height:30px;
+	padding:10px;
+	padding-top:2px;
+	padding-bottom:5px;
+	 -webkit-transition:all 0.3s ease-in-out;
+    border-bottom: solid 1px #dcdcdc;
+}
+.inp input[type=text]:focus{
+
+  border-bottom: solid 1px #0178CB;
+}
+.inp .facebook_loging, .twitter_loging, .google_loging{
+	font-size:16px;
+	position:relative;
+	padding:8px;
+	padding-right:15px;
+	padding-left:15px;
+	margin-top:10px;
+	width:160px;
+	height:20px;
+    top:8px;
+	border-radius:3px;
+	color:white;
+}
+.inp #registrarme, #loguearme{
+	font-size:16px;
+	position:relative;
+	margin-top:10px;
+	padding:5px;
+	height:20px;
+	width:100px;
+	border-radius:3px;
+	background:gray;
+	color:white;
+}
+.inp #loguearme span{
+	padding-left:5px;
+
+}
+.facebook_loging{
+	background: #0178CB;
+}
+.twitter_loging{
+	background: #0178CB;
+}
+.google_loging{
+	background:red;
+}
+.menu{
+	position:relative;
+	float:fixed;
+	background:#FF4848;
+	width:100%;
+	height:60px;
+	line-height:60px;
+	z-index:300;
+}
+
+.no_select:hover{
+	background:rgba(255,255,255,0.0);
+	cursor: default;
+
+}
+ul li:hover{
+    background: rgba(51,51,51,0.2);
+}
+#contenedor{
+	position:relative;
+    height:80%;
+    text-align:center;
+	left:-160px;
+
+}
+#Viajes_p a{
+	color:gray;
+}
+
+#Viajes_p{
+  margin: 10px;
+  padding: 10px;
+	padding-top:30px;
+  margin-left:30px;
+	margin-top:30px;
+	width:60%;
+	height:100%;
+	background: rgba(51,51,51,0.1);
+  overflow-x: hidden;
+}
+
+.pie_pag{
+	width:100%;
+	background: #FF4848;
+	height:60px;
+}
+.co{
+  border: 1px solid;
+  height:50px;
+}
+#triangulo{
+     width: 0;
+     height: 0;
+     border-left: 20px solid #000;
+     border-top: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+}

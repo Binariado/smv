@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5l2otd');
+  src:  url('fonts/icomoon.eot?5l2otd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5l2otd') format('truetype'),
+    url('fonts/icomoon.woff?5l2otd') format('woff'),
+    url('fonts/icomoon.svg?5l2otd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-playback-play:before {
+  content: "\e906";
+}
+.icon-thumbsup:before {
+  content: "\e903";
+}
+.icon-user:before {
+  content: "\e904";
+}
+.icon-profile:before {
+  content: "\e904";
+}
+.icon-avatar:before {
+  content: "\e904";
+}
+.icon-head:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-undo2:before {
+  content: "\e967";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-user3:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-user-minus:before {
+  content: "\e974";
+}
+.icon-user-check:before {
+  content: "\e975";
+}
+.icon-man:before {
+  content: "\e9dc";
+}
+.icon-happy:before {
+  content: "\e9df";
+}
+.icon-sad:before {
+  content: "\e9e5";
+}
+.icon-wink:before {
+  content: "\e9e7";
+}
+.icon-grin:before {
+  content: "\e9e9";
+}
+.icon-cool:before {
+  content: "\e9eb";
+}
+.icon-shocked:before {
+  content: "\e9f1";
+}
+.icon-wondering:before {
+  content: "\e9fb";
+}
+.icon-wondering2:before {
+  content: "\e9fc";
+}
+.icon-crying:before {
+  content: "\ea01";
+}
+.icon-angle-right:before {
+  content: "\e907";
+}
+.icon-angle-left:before {
+  content: "\e908";
+}
+.icon-angle-double-right:before {
+  content: "\e909";
+}
+.icon-angle-double-left:before {
+  content: "\e90a";
+}
+.icon-automobile:before {
+  content: "\e900";
+}
+.icon-car:before {
+  content: "\e900";
+}
+.icon-checkmark:before {
+  content: "\e901";
+}
+.icon-user2:before {
+  content: "\e902";
+}
+.icon-profile2:before {
+  content: "\e902";
+}
+.icon-avatar2:before {
+  content: "\e902";
+}
+

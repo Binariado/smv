@@ -1,0 +1,14 @@
+.p{
+  display: none;
+}
+
+.conte{
+  background-color: #FF2222;
+  width:300px;
+  margin: auto;
+  border: solid 1px #000;
+}
+.co{
+  border: none;
+  border-bottom: solid 1px #001;
+}
